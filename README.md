@@ -1,8 +1,6 @@
 #  Moove
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript\&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
-![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-blue)
 
 Moove è un sistema scritto in **TypeScript** che simula un servizio di micromobilità condivisa. Gestisce utenti, mezzi e città in modo modulare, con un’architettura semplice ma estendibile.
 
