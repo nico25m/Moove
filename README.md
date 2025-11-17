@@ -90,3 +90,4 @@ Progetto distribuito sotto licenza **MIT**. Puoi modificarlo, riutilizzarlo e co
 - 📧 Email: **[nicomelzi05@gmail.com](nicomelzi05@gmail.com)**
 - 🌐 GitHub: **[https://github.com/nico25m](https://github.com/nico25m)**
 - 💼 LinkedIn: **[https://linkedin.com/in/nicolò-melzi](https://linkedin.com/in/nicolò-melzi)**
+- CodePen **[https://codepen.io/nico25m/pen/qEZrKyw](https://codepen.io/nico25m/pen/qEZrKyw)**
