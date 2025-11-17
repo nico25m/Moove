@@ -1,7 +1,6 @@
 #  Moove
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript\&logoColor=white)
-![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-blue)
 
@@ -9,9 +8,9 @@ Moove è un sistema scritto in **TypeScript** che simula un servizio di micromob
 
 ---
 
-## ✨ Caratteristiche principali
+##  Caratteristiche principali
 
-### 🚗 Gestione dei mezzi
+###  Gestione dei mezzi
 
 * Supporto a **Bici**, **Scooter** e **Monopattini**
 * Ogni mezzo include:
@@ -90,6 +89,6 @@ Progetto distribuito sotto licenza **MIT**. Puoi modificarlo, riutilizzarlo e co
 
 **Nicolò**
 
-📧 Email: **[nicomelzi05@gmail.com](mailto:nicomelzi05@gmail.com)**
+📧 Email: **[nicomelzi05@gmail.com](nicomelzi05@gmail.com)**
 🌐 GitHub: **[https://github.com/nico25m](https://github.com/nico25m)**
 💼 LinkedIn: **[https://linkedin.com/in/nicolò-melzi](https://linkedin.com/in/nicolò-melzi)**
