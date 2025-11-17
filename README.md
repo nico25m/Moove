@@ -1,66 +1,95 @@
-# Moove
+#  Moove
 
-Questo progetto mira a sviluppare un sistema in TypeScript che modella la struttura organizzativa di Moove, un servizio innovativo di micromobilità condivisa, focalizzandosi sulle interazioni tra utenti, mezzi di trasporto e le città servite. 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript\&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-blue)
 
-## Funzionalità principali
+Moove è un sistema scritto in **TypeScript** che simula un servizio di micromobilità condivisa. Gestisce utenti, mezzi e città in modo modulare, con un’architettura semplice ma estendibile.
 
-Gestione mezzi: creazione di diversi tipi di veicoli (Bici, Scooter, Monopattino), ognuno con un ID e uno stato operativo.
+---
 
-Gestione utenti: registrazione degli utenti con dati anagrafici e metodo di pagamento.
+## ✨ Caratteristiche principali
 
-Prenotazione dei mezzi: un utente può prenotare un mezzo se questo è disponibile.
+### 🚗 Gestione dei mezzi
 
-Gestione delle città: aggiunta di mezzi alle singole città e visualizzazione dei mezzi disponibili.
+* Supporto a **Bici**, **Scooter** e **Monopattini**
+* Ogni mezzo include:
 
+  * ID univoco
+  * tipo
+  * stato operativo
+  * metodo per l’assegnazione a un utente
 
-## Struttura del codice
+### 👤 Gestione degli utenti
 
-Il progetto si basa su tre interfacce principali:
+* Registrazione con dati anagrafici e metodo di pagamento
+* Possibilità di prenotare un mezzo se disponibile
 
-IMezzo – definisce tipo, ID, stato e metodo assegnaUtente.
+### 🏙️ Gestione delle città
 
-IUtente – definisce i dati utente e il metodo prenotaMezzo.
+* Ogni città contiene la propria flotta
+* Funzioni per:
 
-ICitta – definisce nome, lista mezzi e metodo aggiungiMezzo.
+  * aggiungere mezzi
+  * visualizzare quelli disponibili
 
-E su tre classi principali:
+---
 
-Mezzo: implementazione concreta dei veicoli.
+## Architettura
 
-Utente: rappresenta un utente registrato.
+### Interfacce
 
-Citta: rappresenta una città con una propria flotta di mezzi.
+* `IMezzo` → tipo, ID, stato, `assegnaUtente`
+* `IUtente` → informazioni utente, `prenotaMezzo`
+* `ICitta` → nome, mezzi, `aggiungiMezzo`
 
-## Esempio di utilizzo
+### Classi
+
+* `Mezzo` → implementa la logica dei veicoli
+* `Utente` → modella un utente della piattaforma
+* `Citta` → rappresenta le città servite dal sistema
+
+---
+
+## Esempio pratico
 
 Nel file principale vengono creati:
 
-6 mezzi (2 bici, 2 scooter, 2 monopattini)
+* 6 mezzi (2 bici, 2 scooter, 2 monopattini)
+* 3 utenti
+* 2 città: **Milano** e **Roma**
 
-3 utenti
+Operazioni simulate:
 
-2 città (Milano e Roma)
+1. Aggiunta dei mezzi alle città
+2. Prenotazione da parte degli utenti
+3. Stampa dello stato aggiornato del sistema
 
-Vengono effettuate:
+---
 
-L’aggiunta dei mezzi alle città
+## Struttura del progetto
 
-La prenotazione dei mezzi da parte degli utenti
+```
+Moove/
+    │
+    │──moove.ts
+    │──moove.js
+    └── README.md
+```
 
-La visualizzazione degli stati aggiornati
-
+---
 
 ## Licenza
 
-Questo progetto può essere distribuito o modificato liberamente secondo necessità.
-Aggiungi pure una licenza se prevedi di pubblicarlo su GitHub.
+Progetto distribuito sotto licenza **MIT**. Puoi modificarlo, riutilizzarlo e condividerlo liberamente.
+
+---
 
 ## Autore
 
-Nicolò
+**Nicolò**
 
-📧 Email: nicomelzi05@gmail.com
-
-🌐 GitHub: https://github.com/nico25m
-
-💼 LinkedIn: https://linkedin.com/in/nicolò-melzi
+📧 Email: **[nicomelzi05@gmail.com](mailto:nicomelzi05@gmail.com)**
+🌐 GitHub: **[https://github.com/nico25m](https://github.com/nico25m)**
+💼 LinkedIn: **[https://linkedin.com/in/nicolò-melzi](https://linkedin.com/in/nicolò-melzi)**
