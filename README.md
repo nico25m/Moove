@@ -38,7 +38,7 @@ Moove è un sistema scritto in **TypeScript** che simula un servizio di micromob
 ### Interfacce
 
 * `IMezzo` → tipo, ID, stato, `assegnaUtente`
-* `IUtente` → informazioni utente, `prenotaMezzo`
+* `IUtente` → nome, cognome, email, `prenotaMezzo`
 * `ICitta` → nome, mezzi, `aggiungiMezzo`
 
 ### Classi
