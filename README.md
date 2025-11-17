@@ -18,12 +18,12 @@ Moove è un sistema scritto in **TypeScript** che simula un servizio di micromob
   * stato operativo
   * metodo per l’assegnazione a un utente
 
-### 👤 Gestione degli utenti
+###  Gestione degli utenti
 
 * Registrazione con dati anagrafici e metodo di pagamento
 * Possibilità di prenotare un mezzo se disponibile
 
-### 🏙️ Gestione delle città
+###  Gestione delle città
 
 * Ogni città contiene la propria flotta
 * Funzioni per:
